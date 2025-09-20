@@ -145,8 +145,6 @@ void printArray(const array<int, DAYS>& steps) {
     if (DAYS % COLS != 0) cout << '\n';
 }
 
-
-
 // computeAndPrintStats() uses iterators and member accessors to summarize the data.
 void computeAndPrintStats(const array<int, DAYS>& steps) {
     // Sum and average using <numeric>
